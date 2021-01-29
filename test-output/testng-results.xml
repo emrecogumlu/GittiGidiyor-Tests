@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="205201" started-at="2021-01-29T10:58:41Z" finished-at="2021-01-29T11:02:06Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="92679" started-at="2021-01-29T10:58:41Z" finished-at="2021-01-29T11:00:14Z">
+      <class name="MainGittiGidiyor.GittiGidiyorFramework.GirisYapYanlisBilgi">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapYanlisBilgi@1f36e637]" name="BeforeMethod" is-config="true" duration-ms="14156" started-at="2021-01-29T10:59:06Z" finished-at="2021-01-29T10:59:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="yanlis_bilgi()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapYanlisBilgi@1f36e637]" name="yanlis_bilgi" duration-ms="26757" started-at="2021-01-29T10:59:20Z" finished-at="2021-01-29T10:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yanlis_bilgi -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapYanlisBilgi@1f36e637]" name="AfterMethod" is-config="true" duration-ms="60" started-at="2021-01-29T10:59:47Z" finished-at="2021-01-29T10:59:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainGittiGidiyor.GittiGidiyorFramework.GirisYapYanlisBilgi -->
+      <class name="MainGittiGidiyor.GittiGidiyorFramework.GirisYapAzKarakter">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapAzKarakter@578486a3]" name="BeforeMethod" is-config="true" duration-ms="14387" started-at="2021-01-29T10:59:47Z" finished-at="2021-01-29T11:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="az_karakter(java.lang.String, java.lang.String)[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapAzKarakter@578486a3]" name="az_karakter" duration-ms="12894" started-at="2021-01-29T11:00:01Z" finished-at="2021-01-29T11:00:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emrecogumlu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- az_karakter -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapAzKarakter@578486a3]" name="AfterMethod" is-config="true" duration-ms="63" started-at="2021-01-29T11:00:14Z" finished-at="2021-01-29T11:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainGittiGidiyor.GittiGidiyorFramework.GirisYapAzKarakter -->
+      <class name="MainGittiGidiyor.GittiGidiyorFramework.GirisYapNoInput">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapNoInput@2758fe70]" name="killAllNodes" is-config="true" duration-ms="3028" started-at="2021-01-29T10:58:41Z" finished-at="2021-01-29T10:58:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapNoInput@2758fe70]" name="BeforeMethod" is-config="true" duration-ms="15235" started-at="2021-01-29T10:58:44Z" finished-at="2021-01-29T10:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="no_input()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapNoInput@2758fe70]" name="no_input" duration-ms="6004" started-at="2021-01-29T10:59:00Z" finished-at="2021-01-29T10:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- no_input -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.GirisYapNoInput@2758fe70]" name="AfterMethod" is-config="true" duration-ms="57" started-at="2021-01-29T10:59:06Z" finished-at="2021-01-29T10:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- MainGittiGidiyor.GittiGidiyorFramework.GirisYapNoInput -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="112498" started-at="2021-01-29T11:00:14Z" finished-at="2021-01-29T11:02:06Z">
+      <class name="MainGittiGidiyor.GittiGidiyorFramework.UrunEkleCikar">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.UrunEkleCikar@1c3a4799]" name="killAllNodes" is-config="true" duration-ms="3018" started-at="2021-01-29T11:00:14Z" finished-at="2021-01-29T11:00:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="log_in_valid(java.lang.String, java.lang.String)[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.UrunEkleCikar@1c3a4799]" name="log_in_valid" is-config="true" duration-ms="46026" started-at="2021-01-29T11:00:17Z" finished-at="2021-01-29T11:01:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[emrecogumlu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testodevim1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log_in_valid -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.UrunEkleCikar@1c3a4799]" name="BeforeMethod" is-config="true" duration-ms="15344" started-at="2021-01-29T11:01:03Z" finished-at="2021-01-29T11:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="urun_ekle_cikar()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.UrunEkleCikar@1c3a4799]" name="urun_ekle_cikar" duration-ms="25940" started-at="2021-01-29T11:01:18Z" finished-at="2021-01-29T11:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urun_ekle_cikar -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.UrunEkleCikar@1c3a4799]" name="AfterMethod" is-config="true" duration-ms="64" started-at="2021-01-29T11:01:44Z" finished-at="2021-01-29T11:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="log_out()[pri:0, instance:MainGittiGidiyor.GittiGidiyorFramework.UrunEkleCikar@1c3a4799]" name="log_out" is-config="true" duration-ms="22099" started-at="2021-01-29T11:01:44Z" finished-at="2021-01-29T11:02:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log_out -->
+      </class> <!-- MainGittiGidiyor.GittiGidiyorFramework.UrunEkleCikar -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

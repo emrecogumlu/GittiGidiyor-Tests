@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="gecerli_sifre" value="testodevim1"/>
+  <parameter name="az_karakterli_sifre" value="test1"/>
+  <parameter name="gecerli_mail" value="emrecogumlu@gmail.com"/>
+  <listeners>
+    <listener class-name="Resources.Listeners"/>
+    <listener class-name="Resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="MainGittiGidiyor.GittiGidiyorFramework.GirisYapYanlisBilgi">
+        <methods>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="yanlis_bilgi"/>
+        </methods>
+      </class> <!-- MainGittiGidiyor.GittiGidiyorFramework.GirisYapYanlisBilgi -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

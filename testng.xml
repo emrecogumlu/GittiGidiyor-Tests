@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="Resources.Listeners"/>
+	<listener class-name="Resources.ExtentReporterNG"/>
+</listeners>
+<parameter name="gecerli_mail" value="your valid mail"></parameter>
+<parameter name="gecerli_sifre" value="your valid password"></parameter>
+<parameter name="az_karakterli_sifre" value="test1"></parameter>
+  <test name="Test1">
+		<classes>
+			<class name="MainGittiGidiyor.GittiGidiyorFramework.GirisYapNoInput"/>
+			<class name="MainGittiGidiyor.GittiGidiyorFramework.GirisYapYanlisBilgi"/>
+			<class name="MainGittiGidiyor.GittiGidiyorFramework.GirisYapAzKarakter"/>
+		</classes>
+
+  </test>
+
+  <test name="Test2">
+		<classes>
+			<class name="MainGittiGidiyor.GittiGidiyorFramework.UrunEkleCikar"/>
+		
+		</classes>
+  </test>
+
+
+</suite> 
